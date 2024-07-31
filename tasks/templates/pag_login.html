@@ -1,0 +1,13 @@
+<h1>Pagina Login</h1>
+
+<form action="pag2/" method="POST">
+    {% csrf_token %}
+
+    Usuario <input type="text" placeholder="Usuario", name="user">
+    Contraseña <input type="password" placeholder="Contraseña", name="clave">
+
+    <button>
+        Ingresar
+    </button>
+
+</form>
